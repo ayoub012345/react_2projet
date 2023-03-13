@@ -1,0 +1,29 @@
+"""liste = ["j'adore les communistes"]
+print(liste)
+liste.append("et aussi l'URSS")
+print(liste)
+liste.append(["j'adore les nazis et aussi Hitler"])
+print(liste)
+print(liste[2])
+print(liste[-2])
+somme = 0
+for i in range(10,20,2) :
+    somme  = somme + i
+    i = i + 1
+print(somme)
+for i in liste : 
+    print(i)
+i = 1
+somme = 0
+while i < 10 :
+    somme = somme + i
+    i +=1
+print(somme)
+"""
+motdepass = input("veuiller écrire le mot de passe \n")
+if motdepass == "Fils de gentille":
+    print("vous avez saisi le bon mot de passe")
+else :
+    print("vous vous êtes trompés")
+    
+
